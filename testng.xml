@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="Test" name="Suite">
+  <test name="Tba_Blog_CrossbrowserTest">
+	  
+      <classes>
+	   <class name="testngframework.chrometest"/>
+       <class name="testngframework.firefoxtest"/>
+       <class name="testngframework.edgetest"/>
+      </classes>
+      
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
